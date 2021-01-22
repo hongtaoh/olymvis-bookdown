@@ -1,0 +1,8 @@
+book_filename: "olymvis-bookdown"
+repo: https://github.com/hongtaoh/d3book
+output_dir: _book
+language:
+  ui:
+    edit: "Edit"
+    chapter_name: "Chapter "
+delete_merged_file: true

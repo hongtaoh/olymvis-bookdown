@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2.3 Medal Efficiency | Visualize 120 Years of Summer Olympics</title>
+  <meta name="description" content="Olymvis" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2.3 Medal Efficiency | Visualize 120 Years of Summer Olympics" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Olymvis" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2.3 Medal Efficiency | Visualize 120 Years of Summer Olympics" />
+  
+  <meta name="twitter:description" content="Olymvis" />
+  
+
+<meta name="author" content="Chris Fang &amp; Hongtao Hao" />
+
+
+<meta name="date" content="2021-01-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="lit-homefield.html"/>
+<link rel="next" href="lit-ranking.html"/>
+<script src="libs/header-attrs-2.5.3/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="static/css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Olymvis</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="" data-path="abstract.html"><a href="abstract.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="1" data-path="motivation.html"><a href="motivation.html"><i class="fa fa-check"></i><b>1</b> Motivation</a></li>
+<li class="chapter" data-level="2" data-path="lit.html"><a href="lit.html"><i class="fa fa-check"></i><b>2</b> Litrature Review</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="lit-female.html"><a href="lit-female.html"><i class="fa fa-check"></i><b>2.1</b> Female Participation in Summer Olympics</a></li>
+<li class="chapter" data-level="2.2" data-path="lit-homefield.html"><a href="lit-homefield.html"><i class="fa fa-check"></i><b>2.2</b> Home-field Advantage</a></li>
+<li class="chapter" data-level="2.3" data-path="lit-medal.html"><a href="lit-medal.html"><i class="fa fa-check"></i><b>2.3</b> Medal Efficiency</a></li>
+<li class="chapter" data-level="2.4" data-path="lit-ranking.html"><a href="lit-ranking.html"><i class="fa fa-check"></i><b>2.4</b> Ranking Sports by Number of Athletes</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="plans.html"><a href="plans.html"><i class="fa fa-check"></i><b>3</b> Plans</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="plans-female.html"><a href="plans-female.html"><i class="fa fa-check"></i><b>3.1</b> Female Participation</a></li>
+<li class="chapter" data-level="3.2" data-path="plans-homefield.html"><a href="plans-homefield.html"><i class="fa fa-check"></i><b>3.2</b> Home-field Advantage</a></li>
+<li class="chapter" data-level="3.3" data-path="plans-medal-efficiency.html"><a href="plans-medal-efficiency.html"><i class="fa fa-check"></i><b>3.3</b> Medal Efficiency</a></li>
+<li class="chapter" data-level="3.4" data-path="plans-ranking.html"><a href="plans-ranking.html"><i class="fa fa-check"></i><b>3.4</b> Ranking Sports</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="plots.html"><a href="plots.html"><i class="fa fa-check"></i><b>4</b> Plots</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="plots-female-time.html"><a href="plots-female-time.html"><i class="fa fa-check"></i><b>4.1</b> Female Participation over Time</a></li>
+<li class="chapter" data-level="4.2" data-path="plots-female-continents.html"><a href="plots-female-continents.html"><i class="fa fa-check"></i><b>4.2</b> Female Participation Across Continents</a></li>
+<li class="chapter" data-level="4.3" data-path="plots-homefield.html"><a href="plots-homefield.html"><i class="fa fa-check"></i><b>4.3</b> Home-field Advantage</a></li>
+<li class="chapter" data-level="4.4" data-path="plots-medal-efficiency.html"><a href="plots-medal-efficiency.html"><i class="fa fa-check"></i><b>4.4</b> Medal Efficiency</a></li>
+<li class="chapter" data-level="4.5" data-path="plots-ranking.html"><a href="plots-ranking.html"><i class="fa fa-check"></i><b>4.5</b> Ranking Sports</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>5</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="conclusion-rq-recap.html"><a href="conclusion-rq-recap.html"><i class="fa fa-check"></i><b>5.1</b> Research Question Recap</a></li>
+<li class="chapter" data-level="5.2" data-path="conclusion-findings.html"><a href="conclusion-findings.html"><i class="fa fa-check"></i><b>5.2</b> Major Findings</a></li>
+<li class="chapter" data-level="5.3" data-path="conclusion-reflections.html"><a href="conclusion-reflections.html"><i class="fa fa-check"></i><b>5.3</b> Reflections &amp; Future Work</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Book made with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Visualize 120 Years of Summer Olympics</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="lit-medal" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Medal Efficiency</h2>
+<p>The most straightforward way of measuring a country’s efficiency of earning medals is to count the number of medals per athlete participating. This method was used by Pettigrew and Reiche (2016) in their analysis of home-field advantage.</p>
+<p>Some scholars argued that when assessing the efficiency of medal production, we need to take into account the resources that countries possess, such as GDP and population. From an economics perspective, Rathke and Woitek (2007) came up with a sophisticated formula calculating this efficiency, and visualized the results using multiple box plots that were stacked horizontally. See Figure <a href="lit-medal.html#fig:figure06">2.6</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:figure06"></span>
+<img src="static/pics/3-2.png" alt="The production of Olympic Medals, 1952-2000, Rathke and Wotiek (2007)" width="95%" />
+<p class="caption">
+Figure 2.6: The production of Olympic Medals, 1952-2000, Rathke and Wotiek (2007)
+</p>
+</div>
+<p>Visualizations by Eirk (2016) for the <em>Telegraph</em>, and those by medalspercapita.com also highlighted the importance of GDP and the size of population. For example, Eirk (2016) ranked Olympic nations based on “Gold per million people” and “Gold per £100 bn GDP”. See Figure <a href="lit-medal.html#fig:figure07">2.7</a> and <a href="lit-medal.html#fig:figure08">2.8</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:figure07"></span>
+<img src="static/pics/3-3.png" alt="Top 10 countries for medals per million population, Eirk (2006)" width="90%" />
+<p class="caption">
+Figure 2.7: Top 10 countries for medals per million population, Eirk (2006)
+</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:figure08"></span>
+<img src="static/pics/3-4.png" alt="Ranking medal production considering population and GDP, Eirk (2006)" width="85%" />
+<p class="caption">
+Figure 2.8: Ranking medal production considering population and GDP, Eirk (2006)
+</p>
+</div>
+<p>Similarly, using the concept of “medals per capita”, medalspercapita.com ranked countries based on “population per medal”, i.e., how many people are needed to generate a medal. They created a choropleth map based on the results where darker colors indicate lower “medals per capita”. See Table 3 and Figure <a href="lit-medal.html#fig:figure09">2.9</a>.</p>
+<div class="figure">
+<img src="static/pics/3-5.png" style="width:70.0%" alt="" />
+<p class="caption">Table 3: Population per medal</p>
+</div>
+<div class="figure" style="text-align: center"><span id="fig:figure09"></span>
+<img src="static/pics/3-6.png" alt="World map of population per medal" width="70%" />
+<p class="caption">
+Figure 2.9: World map of population per medal
+</p>
+</div>
+<p>However, we think it is problematic to divide medal counts by population or GDP in measuring medal efficiency. First of all, this method is unfair for countries who joined the Olympics late. For example, China (PRC) attended the Olympics for the first time in 1952 and due to political issues, it was not a participant till 1984 (COC, 2004). If the total number of medals is the basis for medal efficiency, it would be unfair for countries like China and many newly founded countries in Africa.</p>
+<p>Second, it might be unfair to divide the number of medals by population. This formula assumes that a country can send as many athletes as it wants, but this is not the case. For example, for Tokyo 2020, each country can send at most three male and three female athletes (International Table Tennis Federation, 2018). As a result, China will send six table tennis athletes, as will Australia, Japan, Brazil, Egypt, Germany, and the United States (Wikipedia, n.d.), even though China’s population size is larger than that of all the six countries combined (World Bank, 2018).</p>
+<p>Third, it might be simplistic to only count the total number of medals. There has been a debate on whether the ranking of Olympic countries should be based on the number of total medals or only golds (Johnson, 2008). We decided to adopt the method by New York Times, i.e., “medal points” (Klein, 2008). In this system, a gold medal is given 4 points, silver 2 and bronze 1. Center for Strategic International Studies (n.d.) used this method and ranked countries based on what they called as “weighted medals”.</p>
+<p>In this interactive, viewers can see a country’s ranking on each category of sport in a specific Olympic Games by clicking the country’s name. This visualization is clear and direct, but it has some drawbacks. First, only the top countries can be shown interactively but there are over 200 participating countries and regions. Second, and because of the first drawback, this visualization did not provide viewers a general idea of the distribution of media efficiency across countries. See Figure <a href="lit-medal.html#fig:figure10">2.10</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:figure10"></span>
+<img src="static/pics/3-7.png" alt="Ranking of countries by weighted medals" width="95%" />
+<p class="caption">
+Figure 2.10: Ranking of countries by weighted medals
+</p>
+</div>
+<p>To solve these problems, we decided to rank countries by “medal points” as well, but on an interactive choropleth world map.</p>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="lit-homefield.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="lit-ranking.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/hongtaoh/d3book/edit/master/03-lit-review.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["olymvis-bookdown.pdf", "olymvis-bookdown.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
