@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: article
-# github-repo: hongtaoh/d3book
+github-repo: hongtaoh/olymvis-bookdown
 description: "Olymvis"
 ---
 # Preface{-}

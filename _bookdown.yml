@@ -1,5 +1,5 @@
 book_filename: "olymvis-bookdown"
-repo: https://github.com/hongtaoh/d3book
+repo: https://github.com/hongtaoh/olymvis-bookdown
 output_dir: _book
 language:
   ui:
